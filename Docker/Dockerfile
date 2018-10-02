@@ -13,3 +13,4 @@ EXPOSE 8888
 EXPOSE 4040
 
 ENV SPARK_HOME="/opt/conda/lib/python3.6/site-packages/pyspark"
+CMD [ "pyspark", "--driver-memory", "16g"]
