@@ -32,7 +32,7 @@ $ sh run.sh
 from a terminal to extract the movie dataset and start the Docker container. 
 
 
-7. You should be able to navigate to **`http://localhost:8889`** with your browser and see a Jupyter notebook instance. **The password is `spark`.**
+7. You should be able to navigate to **`http://localhost:8889`** with your browser using the refenced key in the command line and see a Jupyter notebook instance. **The password is `spark`.**
 
 8. You can exit the Docker session using `Ctrl+C`.
 
