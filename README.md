@@ -28,8 +28,14 @@ $ sh run.sh
 ``` 
 from a terminal to extract the movie dataset and start the Docker container. 
 
+There will be this phrase
+```
+The Jupyter Notebook is running at: http://host:port/?token=token_id
+```
 
-7. You should be able to navigate to **`http://localhost:8889`** with your browser using the refenced key in the command line and see a Jupyter notebook instance. **The password is `spark`.**
+Copy the ?token=token_id part and past it on the end of **`http://localhost:8889`** 
+
+7. You should be able to navigate to the url above with your browser using the refenced key in the command line and see a Jupyter notebook instance. **The password is `spark`.**
 
 8. You can exit the Docker session using `Ctrl+C`.
 
